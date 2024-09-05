@@ -1,0 +1,1 @@
+idf_component_register(SRCS "bme68x.c" "bme680.c" INCLUDE_DIRS "." REQUIRES esp_driver_i2c generic_helper)

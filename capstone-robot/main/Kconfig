@@ -1,0 +1,38 @@
+config HY_SRF05_ECHO_GPIO
+    int "GPIO echo pin for HY-SRF05 input into ESP32"
+    default 13
+
+config HY_SRF05_TRIG_GPIO
+    int "GPIO trigger pin for HY-SRF05 input into ESP32"
+    default 14
+
+config MAIN_I2C_SDA_GPIO
+    int "The main master I2C peripheral SDA pin, used to control all non sensitive sensors on-board"
+    default 21
+
+config MAIN_I2C_SCL_GPIO
+    int "The main master I2C peripheral SCL pin"
+    default 22
+
+config MAIN_LED_DATA_GPIO
+    int "Main SPI output for on-board LED"
+    default 23
+
+config MAIN_LED_NUM
+    int "Specify the number of LED in a W28xx strip"
+    default 4
+
+menu "Timing configuration for sensors"
+    config HY_SRF05_MEASURING_INTERVAL
+        int "The timing interval (in milisecond) at which HY-SRF05 will perform another data read"
+        default 33
+    config VL53L0X_MEASURING_INTERVAL
+        int "The timing interval (in milisecond) at which VL53L0X will perform another data read"
+        default 33
+    config BME680_MEASURING_INTERVAL
+        int "The timing interval (in milisecond) at which BME680 will perform another data read"
+        default 120
+    config BH1750_MEASURING_INTERVAL
+        int "The timing interval (in milisecond) at which BH1750 will perform another data read, WARNING: THIS SHOULD NOT BE LOWER THAN 120"
+        default 180
+endmenu

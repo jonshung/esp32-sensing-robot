@@ -1,0 +1,8 @@
+capstone-controller/.devcontainer
+capstone-controller/.vscode
+capstone-controller/build
+
+capstone-robot/.devcontainer
+capstone-robot/.venv
+capstone-robot/.vscode
+capstone-robot/build
