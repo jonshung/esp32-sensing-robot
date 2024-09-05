@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
 <!-- PROJECT SHIELDS -->
-[![GPLv3 License][license-shield]][license-url]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -15,8 +15,7 @@
 [![ESP32-based environment sensing robot controller][controller-render]](https://github.com/jonshung/esp32-sensing-robot/)
 <br/>
 A small project that I've been working on in the summer, which consists of a codebase for an ominiwheel, automatically controlled robot for fast and accurate environment sensing; along with a simple manual controller for the robot using another esp32 module with onboard MPU6050 accelerometer and gyroscope IC.
-
-<br/>
+<br/><br/>
 Warning: the project is not completed and only automatic mode is available at the moment
 
 <!-- GETTING STARTED -->
@@ -32,7 +31,7 @@ Since this is a personal resource, I do not anticipate additional contribution t
 <!-- LICENSE -->
 ## License
 
-Distributed under the GPLv3 License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
